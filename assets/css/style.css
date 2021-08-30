@@ -44,6 +44,7 @@ img{
 }
 div.flex{
     display: flex;
+    align-items: center;
 }
 div.full-container{
     width: 100%;
@@ -73,9 +74,99 @@ body{}
 /* HEADER */
 header{}
 /* HEADER */
-  
+.calendario {
+    display: flex;
+    width: 1024px;
+    justify-content: space-around;
+    margin: auto;
+}
+.secaoCalendar  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.calendario > li {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0px;
+    border: 2px solid #00043e;
+    margin: 10px;
+    height: 500px;
+}
+.calendario > li > h3 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: lighter;
+    padding: 10px;
+
+}
+.calendario > li > p {
+
+    padding: 10px;
+    text-align: center;
+    color: #818181;
+}
+
+.calendario-data-rodape {
+    margin-top: 50px;
+    border-top: solid 1px gray;
+}
+.calendario-data-rodape > span {
+    margin: 15px;
+    font-size: xx-large;
+    color: #818181;
+}
+
+.calendario-data-rodape > button {
+    color: white;
+    font-size: larger;
+    background-color: #007aff;
+    border: 0;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+}
+.calendario-data {
+    display: flex;
+    justify-content: center;
+    background-color: #00043e;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    height: 75px;
+}
+.calendario-data-rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.secaoContato{
+    background-color: #EEE;
+    display: flex;
+    justify-content: space-around;
+   /* margin: auto;*/
+    width: 100%;
+    height: 400px;
+}  
+.secaoContato-informacoes {
+    margin-right: 200px;
+}
+.flex-col {
+    margin-right: 100px;
+    /*margin: 100px;*/
+}
 /* FOOTER */
-footer{}
+footer{
+    padding-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+}
 /* FOOTER */
 
 /* INICIAL */
