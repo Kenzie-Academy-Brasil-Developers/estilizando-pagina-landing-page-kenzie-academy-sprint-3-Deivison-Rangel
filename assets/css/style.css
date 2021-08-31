@@ -52,7 +52,8 @@ div.full-container{
 }
 div.large-container{
     width: 100%;
-    max-width: 1170px;
+    max-width: 1346px;
+    /*max-width: 1170px;*/
     margin:0 auto;
 }
 div.container{
@@ -69,18 +70,181 @@ html{}
 /* BODY */
 body{}
 /* BODY */
+
   
 /* HEADER */
 header{}
+
+.large-container{
+    background-color:#00043e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 130px;
+    padding-left: 130px;
+}
+.logo_principal img{
+    width: 40px;
+    padding-top: 16px;
+}
+.logo_principal figcaption{
+    color: #00043e;
+}
+.lista_header{
+    display: flex;
+    
+}
+.lista_header li{
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    display: inline-block;
+}
+.lista_header li a{
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding: 5px 8px;
+    font-size: 13px;
+}
+.lista_header li a:hover{
+    border: 2px solid #fff;
+    cursor: pointer;
+}
 /* HEADER */
   
+/* INICIAL */
+main{}
+
+/*  Area de destaque */
+
+.secaoDestaque{ 
+    text-align: center;
+    background-image: url(../img/background-destaque.webp);
+    padding: 170px;
+    background-size: cover;
+}
+.secaoDestaque h2{
+    font-size: 63px;
+    color: #fff;
+    font-weight: 200;
+}
+.secaoDestaque p{
+    font-size: 21px;
+    color:#fff;
+    padding-bottom: 10px;
+}
+.secaoDestaqueFormulario button{
+    background-color: #007aff;
+    font-size: 14px;
+    border: 1px solid #007aff;
+    border-radius: 0px;
+    padding: 3px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.secaoDestaqueFormulario button:hover{
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.secaoDestaqueFormulario input{
+    padding: 4px;
+    padding-left: 175px;
+    margin-right: -5px;
+    border-radius: 0px;
+    border: none;
+}
+
+/* "seção sobre" */
+
+.sobre_python{
+    display: flex;
+    padding-left: 195px;
+    padding-right: 110px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: flex-end;
+
+}
+.sobre_python h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:24px;
+}
+.sobre_python p{
+    font-size: 19px;
+    font-family: 'Lato', sans-serif;
+    color: #303030;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sobre_python span{
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    color: #818181;
+}
+.sobre_python button{
+    margin-top: 40px;
+    border:1px solid #818181;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    color: #303030;
+}
+.sobre_python button:hover{
+    border: 1px solid blue;
+    cursor: pointer;
+}
+.sobre_python figure img{
+    width: 600px;
+}
+.sobre_python figure figcaption{
+    color:white;
+
+}
+
+
+.sobre_js{
+    display: flex;
+    padding-left: 195px;
+    padding-right: 110px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color:rgb(233, 233, 233);  
+    
+}
+.sobre_js figure img{
+    width: 270px;
+    margin-right: 220px;
+}
+.sobre_js figure figcaption{
+    color: rgb(233, 233, 233);
+}
+.sobre_js h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:24px;
+    padding-bottom: 40px;
+}
+.sobre_js ul li{
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    color: #818181;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    
+}
+
+
+
+/* INICIAL */
+
+
+
 /* FOOTER */
 footer{}
 /* FOOTER */
 
-/* INICIAL */
-main{}
-/* INICIAL */
 
 /* EXTRAS */
 
