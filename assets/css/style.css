@@ -192,6 +192,16 @@ header{}
     height: 70px;
     justify-content: flex-end;
 }
+.secaoContato-informacoes > ul > li > a{
+    font-size: 15px;
+    color: #303030;
+    text-decoration: none;
+}
+.secaoContato-informacoes > p {
+    font-size: 15px;
+    color: #303030;
+    text-decoration: none;
+}
  #nome {
     width: 240px;
     height: 30px;
