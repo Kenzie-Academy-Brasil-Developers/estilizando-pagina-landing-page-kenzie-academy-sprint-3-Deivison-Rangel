@@ -74,9 +74,29 @@ body{}
 /* HEADER */
 header{}
 /* HEADER */
-.calendario {
+.secaoCursos > article > ul {
     display: flex;
     width: 1024px;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.secaoCursos > article > ul > li {
+    width: 100px;
+    padding: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+.secaoCursos > article > ul > li > img{
+    max-width: 200px;}
+.calendario {
+    display: flex;
+    width: 820px;
     justify-content: space-around;
     margin: auto;
 }
