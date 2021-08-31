@@ -418,7 +418,87 @@ footer{
   
 
 /* MEDIA QUERIES */
-    @media screen and (min-width: 400px) {}
+    @media screen and (max-width: 320px) {
+        body > main > section.secaoCursos > article > h2 {
+            margin-top:20px;
+            width: 320px;
+            text-align: center;
+        }
+        body > main > section.secaoCursos > article > p {
+            width: 320px;
+            text-align: center;
+        }
+        .secaoCursos > article > ul {
+            display: flex;
+            width: 280px;
+            justify-content: center;
+            margin: auto;
+            flex-wrap: wrap;
+        }
+        .secaoCursos > article > ul > li {
+            width: 100px;
+            height: auto;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .calendario {
+            display: flex;
+            width: 280px;
+            justify-content: space-around;
+            margin: auto;
+            flex-direction: column;
+        }
+        .secaoContato{
+            background-color: #EEE;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            margin-top: 100px;
+            padding-top: 50px;
+            width: 320px;
+            height: 500px;
+        }  
+        body > main > section.secaoContato > div {
+            width: fit-content;
+        }
+        .secaoContato > .flex-col {
+            width: 320px;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .flex-col {
+            width: 320px; 
+            justify-content: flex-start;
+        }
+        .flex-col > form {
+            display: flex;
+            flex-direction: row;
+            width: 500px;
+            flex-wrap: wrap;
+            height: 70px;
+            justify-content: flex-start;
+        }
+        section.secaoContato > div {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #nome, #email {
+            width: 280px;
+        }
+        footer {
+            max-width: 320px;
+            display: flex;
+            font-size: medium;
+            justify-content: center;
+        };
+    }
   
     @media screen and (min-width: 800px) {}
 /* MEDIA QUERIES */
