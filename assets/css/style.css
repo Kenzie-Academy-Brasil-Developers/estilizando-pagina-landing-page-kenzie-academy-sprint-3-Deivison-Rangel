@@ -237,7 +237,13 @@
         display: flex;
         justify-content: center;
     }
-
+    .curso_um{
+        text-align: center;  
+        margin-top: 25px;
+    }
+    .curso_umm{
+        text-align: center;
+    }
     /* Area de destaque */
 
     .secaoDestaque{ 
